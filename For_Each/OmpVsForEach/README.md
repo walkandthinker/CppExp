@@ -1,11 +1,16 @@
 OMP threads=8
+
 Matrix size= 20000000, steps= 20
+
 Start to init allocated array...
-Allocated array initialized! 
+Allocated array initialized!
+
 Start to init vector array...
-Vector array initialized! 
+Vector array initialized!
 Time elpased:0.115213
+
 Star to execute loops for array and vector ...
+
 Step=1, time elapse====> array= 0.314078 [s],array omp= 0.074833 [s],vector iterator= 0.315487 [s],
 	arrA=-0.95613, arrB=-0.95613, vecA=-0.95613
 
