@@ -1,3 +1,0 @@
-/home/by/Projects/GitHub/CppExp/Class_Gcc9/build/CMakeFiles/rebuild_cache.dir
-/home/by/Projects/GitHub/CppExp/Class_Gcc9/build/CMakeFiles/edit_cache.dir
-/home/by/Projects/GitHub/CppExp/Class_Gcc9/build/CMakeFiles/perftest.dir
