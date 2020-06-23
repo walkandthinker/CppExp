@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Mesh.h"
+#include "Test.h"
 
 using namespace std;
 
@@ -11,9 +12,14 @@ int main(){
 
     cout<<mesh1.GetMeshFileName()<<endl;
 
+
     mesh2.ReadMesh();
     mesh2.PrintMesh();
 
     cout<<mesh2.GetMeshFileName()<<endl;
+
+    Test test;
+
+    test.PrintValues();
     return 0;
 }

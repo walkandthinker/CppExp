@@ -14,6 +14,7 @@ void Mesh::ReadMesh(){
 }
 
 void Mesh::PrintMesh() const{
+    // cout<<"nNodes"<<_nNodes<<endl;
     if(_MeshMode==0){
         AbaqusIO::PrintMesh();
     }

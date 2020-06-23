@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/RankTwoTensor.h
+iostream
+-
+iomanip
+-
+vector
+-
+cmath
+-
+
+/home/by/Projects/GitHub/CppExp/Class_Gcc9/src/RankTwoTensor.cpp
+RankTwoTensor.h
+/home/by/Projects/GitHub/CppExp/Class_Gcc9/src/RankTwoTensor.h
+

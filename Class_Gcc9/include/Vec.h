@@ -106,6 +106,14 @@ public:
         _vals[2]=_vals[2]*a;
         return *this;
     }
+    inline Vec& operator*=(const Vec &a){
+        // _vals[0]=_vals[0]*a._vals[0];
+        // _vals[1]=_vals[1]*a._vals[1];
+        // _vals[2]=_vals[2]*a._vals[2];
+        Vec temp=(*this)*a._vals[0];
+        (*this)=temp;
+        return *this;
+    }
 
     friend ostream& operator<<(ostream& os, const Vec& a);
 

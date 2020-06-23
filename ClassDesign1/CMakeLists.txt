@@ -37,6 +37,9 @@ set(src ${src} include/Gmsh2IO.h src/Gmsh2IO.cpp)
 # set(src ${src} src/CreateInterfaceMesh.cpp)
 
 set(src ${src} include/Mesh.h src/Mesh.cpp)
+
+set(src ${src} include/ParaBase.h include/MyPara.h)
+set(src ${src} include/MethodBase.h include/MyMethod.h include/Test.h)
 ##################################################
 add_executable(mesh ${src})
 

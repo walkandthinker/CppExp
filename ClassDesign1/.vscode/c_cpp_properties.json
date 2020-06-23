@@ -7,7 +7,7 @@
                 "${workspaceFolder}/include"
             ],
             "defines": [],
-            "compilerPath": "/opt/moose/gcc-9.2.0/bin/g++",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64",

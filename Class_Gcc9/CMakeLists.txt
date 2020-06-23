@@ -26,7 +26,7 @@ set(src src/main.cpp)
 set(src ${src} include/Vec.h src/Vec.cpp)
 
 
-
+set(src ${src} include/RankTwoTensor.h src/RankTwoTensor.cpp)
 
 
 
